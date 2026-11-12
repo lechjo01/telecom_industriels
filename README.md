@@ -6,7 +6,7 @@ via GitHub Pages.
 
 ## URL de publication
 
-Le résultat de ce projet est disponible en ligne sur : [https://github.io/telecom_industriels/](https://github.io/telecom_industriels/)
+Le résultat de ce projet est disponible en ligne sur : [https://lechjo01.github.io/telecom_industriels/](https://github.io/telecom_industriels/)
 
 ### Outils nécessaires
 
