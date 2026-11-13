@@ -131,7 +131,7 @@ Ces échanges doivent cependant être contrôlés et sécurisés.
 On peut représenter cette communication de manière simplifiée :
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph IT["Réseau IT"]
         direction TB
         ERP["Application de<br/>gestion<br/>(données de production)"]
