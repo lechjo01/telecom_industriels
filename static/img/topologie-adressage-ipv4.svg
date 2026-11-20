@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="340" viewBox="0 0 1400 340" role="img" aria-labelledby="title desc">
+<title id="title">Topologie réseau IPv4</title><desc id="desc">PC1 est relié au commutateur SW1, puis au routeur R1. R1 et R2 sont reliés par une liaison série. R2 est relié au commutateur SW2, puis à PC2.</desc>
+<defs>
+ <linearGradient id="router" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#edf4f8"/><stop offset="1" stop-color="#91adbf"/></linearGradient>
+ <linearGradient id="switch" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e7f3ef"/><stop offset="1" stop-color="#83b3a5"/></linearGradient>
+ <style>.lab{font:bold 22px Arial,sans-serif;fill:#203746}.sub{font:16px Arial,sans-serif;fill:#405563}.port{font:15px Arial,sans-serif;fill:#263746}.edge{stroke:#34495e;stroke-width:5;fill:none}.serial{stroke:#d62828;stroke-width:6;fill:none;stroke-linejoin:round}.dev{stroke:#334b5c;stroke-width:3;stroke-linejoin:round}</style>
+</defs>
+<rect width="1400" height="340" fill="white"/>
+<!-- Ethernet links -->
+<path class="edge" d="M130 166 H220 M350 166 H440 M690 166 H790 M1040 166 H1130 M1260 166 H1300"/>
+<!-- Serial link, drawn over the straight connection -->
+<path class="serial" d="M690 166 H725 L745 145 L765 187 L785 145 L805 187 L825 166 H790"/>
+<text x="750" y="95" text-anchor="middle" class="lab">Liaison série</text>
+<text x="700" y="127" class="port">S0/0/0</text><text x="810" y="127" class="port">S0/0/0</text>
+<!-- PC icon -->
+<g transform="translate(35 112)"><rect x="5" y="0" width="78" height="53" rx="5" fill="#dce8f2" class="dev"/><rect x="13" y="8" width="62" height="37" fill="#6d9fbd" stroke="#334b5c" stroke-width="2"/><path d="M44 53 V67 M25 69 H63" stroke="#334b5c" stroke-width="5" stroke-linecap="round"/><path d="M0 76 H88 L79 86 H9 Z" fill="#b8c7d1" class="dev"/><text x="44" y="119" text-anchor="middle" class="lab">PC1</text></g>
+<!-- Switch icon -->
+<g transform="translate(220 133)"><path d="M0 13 L17 0 H113 L130 13 V52 L113 65 H17 L0 52 Z" fill="url(#switch)" class="dev"/><path d="M18 20 H112 M18 32 H112" stroke="#52766e" stroke-width="2"/><g fill="#f8fcfb" stroke="#355b54" stroke-width="1.5"><rect x="18" y="40" width="12" height="8"/><rect x="37" y="40" width="12" height="8"/><rect x="56" y="40" width="12" height="8"/><rect x="75" y="40" width="12" height="8"/><rect x="94" y="40" width="12" height="8"/></g><text x="65" y="98" text-anchor="middle" class="lab">SW1</text><text x="65" y="119" text-anchor="middle" class="sub">Switch</text></g>
+<!-- Router cylinder -->
+<g transform="translate(440 110)"><path d="M0 28 C0 10 55 0 125 0 S250 10 250 28 V82 C250 100 195 110 125 110 S0 100 0 82 Z" fill="url(#router)" class="dev"/><ellipse cx="125" cy="28" rx="125" ry="28" fill="#dce8f1" class="dev"/><path d="M45 28 H205 M125 8 V48 M65 13 L185 43 M185 13 L65 43" stroke="#55758a" stroke-width="4" fill="none"/><text x="125" y="82" text-anchor="middle" class="lab">R1</text></g>
+<g transform="translate(790 110)"><path d="M0 28 C0 10 55 0 125 0 S250 10 250 28 V82 C250 100 195 110 125 110 S0 100 0 82 Z" fill="url(#router)" class="dev"/><ellipse cx="125" cy="28" rx="125" ry="28" fill="#dce8f1" class="dev"/><path d="M45 28 H205 M125 8 V48 M65 13 L185 43 M185 13 L65 43" stroke="#55758a" stroke-width="4" fill="none"/><text x="125" y="82" text-anchor="middle" class="lab">R2</text></g>
+<!-- Switch 2 -->
+<g transform="translate(1130 133)"><path d="M0 13 L17 0 H113 L130 13 V52 L113 65 H17 L0 52 Z" fill="url(#switch)" class="dev"/><path d="M18 20 H112 M18 32 H112" stroke="#52766e" stroke-width="2"/><g fill="#f8fcfb" stroke="#355b54" stroke-width="1.5"><rect x="18" y="40" width="12" height="8"/><rect x="37" y="40" width="12" height="8"/><rect x="56" y="40" width="12" height="8"/><rect x="75" y="40" width="12" height="8"/><rect x="94" y="40" width="12" height="8"/></g><text x="65" y="98" text-anchor="middle" class="lab">SW2</text><text x="65" y="119" text-anchor="middle" class="sub">Switch</text></g>
+<!-- PC2 -->
+<g transform="translate(1300 112)"><rect x="5" y="0" width="78" height="53" rx="5" fill="#dce8f2" class="dev"/><rect x="13" y="8" width="62" height="37" fill="#6d9fbd" stroke="#334b5c" stroke-width="2"/><path d="M44 53 V67 M25 69 H63" stroke="#334b5c" stroke-width="5" stroke-linecap="round"/><path d="M0 76 H88 L79 86 H9 Z" fill="#b8c7d1" class="dev"/><text x="44" y="119" text-anchor="middle" class="lab">PC2</text></g>
+<!-- Interface labels -->
+<text x="395" y="151" text-anchor="middle" class="port">Fa0/0</text><text x="1085" y="151" text-anchor="middle" class="port">Fa0/0</text>
+<text x="175" y="145" text-anchor="middle" class="sub">Ethernet</text><text x="395" y="145" text-anchor="middle" class="sub">Ethernet</text><text x="1085" y="145" text-anchor="middle" class="sub">Ethernet</text>
+<text x="560" y="275" text-anchor="middle" class="sub">LAN R1</text><text x="910" y="275" text-anchor="middle" class="sub">LAN R2</text>
+</svg>
