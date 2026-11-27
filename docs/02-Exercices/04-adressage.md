@@ -16,15 +16,15 @@ Pour chaque problème, indiquez :
 |---|---|
 | Adresse IP donnée | |
 | Masque fourni (décimal et préfixe) | |
-| Masque du réseau de départ retenu | |
-| Nombre de bits empruntés | |
-| Nombre de sous-réseaux (`2^bits empruntés`) | |
 | Nombre de bits d'hôte (`32 - préfixe`) | |
 | Nombre d'hôtes utilisables (`2^bits hôte - 2`) | |
 | Adresse du sous-réseau | |
 | Première adresse hôte utilisable | |
 | Dernière adresse hôte utilisable | |
 | Adresse de diffusion | |
+<!-- | Masque du réseau de départ retenu | |
+| Nombre de bits empruntés | |
+| Nombre de sous-réseaux (`2^bits empruntés`) | | -->
 
 ### Problème 1
 
